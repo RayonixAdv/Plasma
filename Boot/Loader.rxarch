@@ -1,0 +1,8 @@
+start {
+	writeSerial();
+	kill();
+}
+
+writeSerial {
+	move(0x01, tx);
+}
